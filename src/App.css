@@ -14,6 +14,20 @@ img {
   max-width: 100%;
 }
 
+.bold {
+  font-weight: 600;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+/* make swiper slides per view auto  */
+
+.swiper-slide {
+  width: auto !important;
+}
+
 /* | Header */
 
 .header {
@@ -74,4 +88,85 @@ img {
   margin-top: 16px;
 
   max-width: 320px;
+}
+
+/* | Experiences */
+
+.experiences {
+  max-width: 550px;
+  margin: 0 auto;
+  padding-left: 36px;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+/* | Card */
+
+.card {
+  width: 176px;
+}
+
+.card__cover-img {
+  position: relative;
+}
+
+.card__badge {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 61px;
+  height: 20px;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 110%;
+  text-align: center;
+
+  color: #222222;
+}
+
+.card__exp-rating-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.card__exp-rating-info img {
+  width: 14px;
+}
+
+.card__exp-rating-info span {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 300;
+}
+
+.card__circle-icon {
+  height: 2px;
+  width: 2px;
+  background-color: #918e9b;
+}
+
+.card__info {
+  margin-top: 8px;
+}
+
+.card__title,
+.card__price {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+}
+
+.card__price {
+  margin-top: 8px;
 }
