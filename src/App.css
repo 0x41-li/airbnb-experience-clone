@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* | Header */
 
 .header {
@@ -21,4 +29,49 @@
   align-items: center;
   height: 100%;
   padding-left: 30px;
+}
+
+/* | Hero */
+
+.hero {
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.hero__image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  width: 80%;
+  max-width: 395px;
+}
+
+.hero h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+
+  margin-top: 32px;
+  margin-left: 36px;
+}
+
+.hero p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+
+  color: #222222;
+  margin-left: 36px;
+  margin-top: 16px;
+
+  max-width: 320px;
 }
